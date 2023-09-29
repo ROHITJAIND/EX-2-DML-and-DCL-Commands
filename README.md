@@ -51,7 +51,7 @@ delete from manager where salary<2750;
 select ename as "Name",salary*12 as "Annual salary" from manager;
 ```
 ##### OUTPUT:
-![Screenshot 2023-09-29 142926](https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/5b6e495d-cd34-4874-91a3-b600f0e9927c)
+<img height=10% width=40% src="https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/5b6e495d-cd34-4874-91a3-b600f0e9927c">
 
 #### Q4)	List the names of Clerks from emp table.
 ##### QUERY:
@@ -77,7 +77,7 @@ select ename from manager where designation <> 'manager';
 select ename from manager where commission=0;
 ```
 ##### OUTPUT:
-![Screenshot 2023-09-29 143151](https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/623b874c-2071-4209-a7e0-117c1beb8c72)
+<img height=10% width=40% src="https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/623b874c-2071-4209-a7e0-117c1beb8c72">
 
 #### Q7)	List employees whose name either start or end with ‘s’.
 ##### QUERY:
@@ -85,7 +85,7 @@ select ename from manager where commission=0;
 select ename from manager where ename like '%S' or ename like 'S%';
 ```
 ##### OUTPUT:
-![Screenshot 2023-09-29 143330](https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/078a17cd-e22c-4350-9742-f8a7647dc178)
+<img height=10% width=40% src="https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/078a17cd-e22c-4350-9742-f8a7647dc178">
 
 #### Q8) Sort emp table in ascending order by hire-date and list ename, job, deptno and hire-date.
 ##### QUERY:
@@ -109,7 +109,7 @@ select * from manager where hiredate<to_date('1981-09-30','YYYY-MM-DD');
 select ename,deptno,salary from manager order by deptno asc,salary desc;
 ```
 ##### OUTPUT:
-![Screenshot 2023-09-29 144019](https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/1eca19e0-48ee-428b-b0bf-12ee0cf74591)
+<img height=10% width=40% src="https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/1eca19e0-48ee-428b-b0bf-12ee0cf74591">
 
 #### Q11) List the names of employees not belonging to dept no 30,40 & 10
 ##### QUERY:
@@ -117,7 +117,7 @@ select ename,deptno,salary from manager order by deptno asc,salary desc;
 select ename from manager where deptno not in (30,40,10);
 ```
 ##### OUTPUT:
-![Screenshot 2023-09-29 144107](https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/7e00adfe-60cc-49a0-9fdd-b48f6e46fd12)
+<img height=10% width=40% src="https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/7e00adfe-60cc-49a0-9fdd-b48f6e46fd12">
 
 #### Q12) Find number of rows in the table EMP
 ##### QUERY:
@@ -125,7 +125,7 @@ select ename from manager where deptno not in (30,40,10);
 select count(*) from manager;
 ```
 ##### OUTPUT:
-![Screenshot 2023-09-29 144209](https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/0a17316a-35d0-48ae-9957-5c10307369b3)
+<img height=10% width=40% src="https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/0a17316a-35d0-48ae-9957-5c10307369b3">
 
 #### Q13) Find maximum, minimum and average salary in EMP table.
 ##### QUERY:
@@ -143,7 +143,7 @@ select avg(salary) from manager;
 SELECT designation AS job, COUNT(*) AS num_employees FROM manager GROUP BY designation ORDER BY num_employees DESC;
 ```
 ##### OUTPUT:
-![Screenshot 2023-09-29 144527](https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/faa78ae1-0a9c-4888-b5f5-72213d0833ab)
+<img height=10% width=40% src="https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/faa78ae1-0a9c-4888-b5f5-72213d0833ab">
 
 ### RESULT:
 To create a manager database and execute DML queries using SQL is executed successfully.
