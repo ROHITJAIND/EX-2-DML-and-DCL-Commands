@@ -1,8 +1,6 @@
 # EX-02 Data Manipulation Language (DML) Commands and built in functions in SQL
 ### AIM:
 To create a manager database and execute DML queries using SQL.
-
-
 ### DML(Data Manipulation Language)
 <div align="justify">
 The SQL commands that deal with the manipulation of data present in the database belong to DML or Data Manipulation Language and this includes most of the SQL statements. It is the component of the SQL statement that controls access to data and to the database. Basically, DCL statements are grouped with DML statements.
@@ -51,7 +49,7 @@ delete from manager where salary<2750;
 select ename as "Name",salary*12 as "Annual salary" from manager;
 ```
 ##### OUTPUT:
-<img height=6% width=20% src="https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/5b6e495d-cd34-4874-91a3-b600f0e9927c">
+<img height=10% width=40% src="https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/5b6e495d-cd34-4874-91a3-b600f0e9927c">
 
 #### Q4)	List the names of Clerks from emp table.
 ##### QUERY:
@@ -109,7 +107,7 @@ select * from manager where hiredate<to_date('1981-09-30','YYYY-MM-DD');
 select ename,deptno,salary from manager order by deptno asc,salary desc;
 ```
 ##### OUTPUT:
-<img height=10% width=20% src="https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/1eca19e0-48ee-428b-b0bf-12ee0cf74591">
+<img height=10% width=40% src="https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/1eca19e0-48ee-428b-b0bf-12ee0cf74591">
 
 #### Q11) List the names of employees not belonging to dept no 30,40 & 10
 ##### QUERY:
@@ -143,7 +141,7 @@ select avg(salary) from manager;
 SELECT designation AS job, COUNT(*) AS num_employees FROM manager GROUP BY designation ORDER BY num_employees DESC;
 ```
 ##### OUTPUT:
-<img height=6% width=20% src="https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/faa78ae1-0a9c-4888-b5f5-72213d0833ab">
+<img height=10% width=40% src="https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/faa78ae1-0a9c-4888-b5f5-72213d0833ab">
 
 ### RESULT:
 To create a manager database and execute DML queries using SQL is executed successfully.
