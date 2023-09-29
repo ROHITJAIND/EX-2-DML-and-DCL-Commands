@@ -49,7 +49,7 @@ delete from manager where salary<2750;
 select ename as "Name",salary*12 as "Annual salary" from manager;
 ```
 ##### OUTPUT:
-<img height=10% width=40% src="https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/5b6e495d-cd34-4874-91a3-b600f0e9927c">
+<img height=15% width=40% src="https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/5b6e495d-cd34-4874-91a3-b600f0e9927c">
 
 #### Q4)	List the names of Clerks from emp table.
 ##### QUERY:
@@ -107,7 +107,7 @@ select * from manager where hiredate<to_date('1981-09-30','YYYY-MM-DD');
 select ename,deptno,salary from manager order by deptno asc,salary desc;
 ```
 ##### OUTPUT:
-<img height=10% width=40% src="https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/1eca19e0-48ee-428b-b0bf-12ee0cf74591">
+<img height=15% width=40% src="https://github.com/ROHITJAIND/EX-2-DML-and-DCL-Commands/assets/118707073/1eca19e0-48ee-428b-b0bf-12ee0cf74591">
 
 #### Q11) List the names of employees not belonging to dept no 30,40 & 10
 ##### QUERY:
