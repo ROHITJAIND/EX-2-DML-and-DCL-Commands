@@ -1,6 +1,6 @@
 # EX-02 Data Manipulation Language (DML) Commands and built in functions in SQL
 ### AIM:
-To create a manager database and execute DML queries using SQL.
+To create a manager database and execute DML queries using SQL.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **DATE :** 22.08.2023
 ### DML(Data Manipulation Language)
 <div align="justify">
 The SQL commands that deal with the manipulation of data present in the database belong to DML or Data Manipulation Language and this includes most of the SQL statements. It is the component of the SQL statement that controls access to data and to the database. Basically, DCL statements are grouped with DML statements.
