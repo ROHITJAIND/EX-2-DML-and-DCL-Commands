@@ -7,11 +7,9 @@ The SQL commands that deal with the manipulation of data present in the database
 </div>
 
 ### List of DML commands: 
-<div align="justify">
-INSERT: It is used to insert data into a table.<br>
-UPDATE: It is used to update existing data within a table.<br>
+INSERT: It is used to insert data into a table.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Developed By: ROHIT JAIN D <br>
+UPDATE: It is used to update existing data within a table.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Register No: 212222230120 <br>
 DELETE: It is used to delete records from a database table.<br>
-</div>
 
 #### Create the table as given below:
 ```sql
