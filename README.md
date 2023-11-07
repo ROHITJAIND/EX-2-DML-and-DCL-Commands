@@ -149,7 +149,8 @@ select ename from manager where ename like '%S' or ename like 'S%';
 
 ##### QUERY:
 ```SQL
-select ename,designation as "job",deptno,hiredate from manager order by hiredate asc;
+select ename,designation as "job",deptno,hiredate
+from manager order by hiredate asc;
 ```
       
 </td>
